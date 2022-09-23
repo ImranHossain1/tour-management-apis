@@ -113,7 +113,6 @@ exports.createPackage =async(req,res,next)=>{
       res.status(200).json({
         status: "success",
         message: "Successfully updated the package",
-        data: result
       })
     } catch (error) {
       res.status(400).json({
@@ -130,7 +129,6 @@ exports.createPackage =async(req,res,next)=>{
       res.status(200).json({
         status: "success",
         message: "Successfully updated the packages",
-        data: result
       })
     } catch (error) {
       res.status(400).json({
@@ -156,7 +154,6 @@ exports.createPackage =async(req,res,next)=>{
       res.status(200).json({
         status: "success",
         message: "Successfully Deleted the package",
-        data: result
       })
     } catch (error) {
       res.status(400).json({
